@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D014A3812C036969003F8E66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D014A3802C036969003F8E66 /* AppDelegate.swift */; };
+		D014A3832C036969003F8E66 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D014A3822C036969003F8E66 /* SceneDelegate.swift */; };
+		D014A3882C036969003F8E66 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D014A3872C036969003F8E66 /* Base */; };
+		D014A38A2C03696A003F8E66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D014A3892C03696A003F8E66 /* Assets.xcassets */; };
+		D014A38D2C03696A003F8E66 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D014A38C2C03696A003F8E66 /* Base */; };
+		D014A3982C03696A003F8E66 /* DemoAuthFingerprintFaceIDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D014A3972C03696A003F8E66 /* DemoAuthFingerprintFaceIDTests.swift */; };
+		D014A3A22C03696A003F8E66 /* DemoAuthFingerprintFaceIDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D014A3A12C03696A003F8E66 /* DemoAuthFingerprintFaceIDUITests.swift */; };
+		D014A3A42C03696A003F8E66 /* DemoAuthFingerprintFaceIDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D014A3A32C03696A003F8E66 /* DemoAuthFingerprintFaceIDUITestsLaunchTests.swift */; };
+		D014A3B12C036B5E003F8E66 /* SucessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D014A3B02C036B5E003F8E66 /* SucessVC.swift */; };
+		D014A3B32C036B7D003F8E66 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D014A3B22C036B7D003F8E66 /* LoginVC.swift */; };
+		D014A3B52C036D7B003F8E66 /* FingerPrintAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D014A3B42C036D7B003F8E66 /* FingerPrintAuth.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D014A3942C03696A003F8E66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D014A3752C036969003F8E66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D014A37C2C036969003F8E66;
+			remoteInfo = DemoAuthFingerprintFaceID;
+		};
+		D014A39E2C03696A003F8E66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D014A3752C036969003F8E66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D014A37C2C036969003F8E66;
+			remoteInfo = DemoAuthFingerprintFaceID;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D014A37D2C036969003F8E66 /* DemoAuthFingerprintFaceID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoAuthFingerprintFaceID.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D014A3802C036969003F8E66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D014A3822C036969003F8E66 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D014A3872C036969003F8E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D014A3892C03696A003F8E66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D014A38C2C03696A003F8E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D014A38E2C03696A003F8E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D014A3932C03696A003F8E66 /* DemoAuthFingerprintFaceIDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoAuthFingerprintFaceIDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D014A3972C03696A003F8E66 /* DemoAuthFingerprintFaceIDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAuthFingerprintFaceIDTests.swift; sourceTree = "<group>"; };
+		D014A39D2C03696A003F8E66 /* DemoAuthFingerprintFaceIDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoAuthFingerprintFaceIDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D014A3A12C03696A003F8E66 /* DemoAuthFingerprintFaceIDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAuthFingerprintFaceIDUITests.swift; sourceTree = "<group>"; };
+		D014A3A32C03696A003F8E66 /* DemoAuthFingerprintFaceIDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAuthFingerprintFaceIDUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D014A3B02C036B5E003F8E66 /* SucessVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SucessVC.swift; sourceTree = "<group>"; };
+		D014A3B22C036B7D003F8E66 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		D014A3B42C036D7B003F8E66 /* FingerPrintAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FingerPrintAuth.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D014A37A2C036969003F8E66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D014A3902C03696A003F8E66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D014A39A2C03696A003F8E66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D014A3742C036969003F8E66 = {
+			isa = PBXGroup;
+			children = (
+				D014A37F2C036969003F8E66 /* DemoAuthFingerprintFaceID */,
+				D014A3962C03696A003F8E66 /* DemoAuthFingerprintFaceIDTests */,
+				D014A3A02C03696A003F8E66 /* DemoAuthFingerprintFaceIDUITests */,
+				D014A37E2C036969003F8E66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D014A37E2C036969003F8E66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D014A37D2C036969003F8E66 /* DemoAuthFingerprintFaceID.app */,
+				D014A3932C03696A003F8E66 /* DemoAuthFingerprintFaceIDTests.xctest */,
+				D014A39D2C03696A003F8E66 /* DemoAuthFingerprintFaceIDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D014A37F2C036969003F8E66 /* DemoAuthFingerprintFaceID */ = {
+			isa = PBXGroup;
+			children = (
+				D014A3802C036969003F8E66 /* AppDelegate.swift */,
+				D014A3822C036969003F8E66 /* SceneDelegate.swift */,
+				D014A3B02C036B5E003F8E66 /* SucessVC.swift */,
+				D014A3B22C036B7D003F8E66 /* LoginVC.swift */,
+				D014A3862C036969003F8E66 /* Main.storyboard */,
+				D014A3892C03696A003F8E66 /* Assets.xcassets */,
+				D014A38B2C03696A003F8E66 /* LaunchScreen.storyboard */,
+				D014A38E2C03696A003F8E66 /* Info.plist */,
+				D014A3B42C036D7B003F8E66 /* FingerPrintAuth.swift */,
+			);
+			path = DemoAuthFingerprintFaceID;
+			sourceTree = "<group>";
+		};
+		D014A3962C03696A003F8E66 /* DemoAuthFingerprintFaceIDTests */ = {
+			isa = PBXGroup;
+			children = (
+				D014A3972C03696A003F8E66 /* DemoAuthFingerprintFaceIDTests.swift */,
+			);
+			path = DemoAuthFingerprintFaceIDTests;
+			sourceTree = "<group>";
+		};
+		D014A3A02C03696A003F8E66 /* DemoAuthFingerprintFaceIDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D014A3A12C03696A003F8E66 /* DemoAuthFingerprintFaceIDUITests.swift */,
+				D014A3A32C03696A003F8E66 /* DemoAuthFingerprintFaceIDUITestsLaunchTests.swift */,
+			);
+			path = DemoAuthFingerprintFaceIDUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D014A37C2C036969003F8E66 /* DemoAuthFingerprintFaceID */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D014A3A72C03696A003F8E66 /* Build configuration list for PBXNativeTarget "DemoAuthFingerprintFaceID" */;
+			buildPhases = (
+				D014A3792C036969003F8E66 /* Sources */,
+				D014A37A2C036969003F8E66 /* Frameworks */,
+				D014A37B2C036969003F8E66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoAuthFingerprintFaceID;
+			productName = DemoAuthFingerprintFaceID;
+			productReference = D014A37D2C036969003F8E66 /* DemoAuthFingerprintFaceID.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D014A3922C03696A003F8E66 /* DemoAuthFingerprintFaceIDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D014A3AA2C03696A003F8E66 /* Build configuration list for PBXNativeTarget "DemoAuthFingerprintFaceIDTests" */;
+			buildPhases = (
+				D014A38F2C03696A003F8E66 /* Sources */,
+				D014A3902C03696A003F8E66 /* Frameworks */,
+				D014A3912C03696A003F8E66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D014A3952C03696A003F8E66 /* PBXTargetDependency */,
+			);
+			name = DemoAuthFingerprintFaceIDTests;
+			productName = DemoAuthFingerprintFaceIDTests;
+			productReference = D014A3932C03696A003F8E66 /* DemoAuthFingerprintFaceIDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D014A39C2C03696A003F8E66 /* DemoAuthFingerprintFaceIDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D014A3AD2C03696A003F8E66 /* Build configuration list for PBXNativeTarget "DemoAuthFingerprintFaceIDUITests" */;
+			buildPhases = (
+				D014A3992C03696A003F8E66 /* Sources */,
+				D014A39A2C03696A003F8E66 /* Frameworks */,
+				D014A39B2C03696A003F8E66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D014A39F2C03696A003F8E66 /* PBXTargetDependency */,
+			);
+			name = DemoAuthFingerprintFaceIDUITests;
+			productName = DemoAuthFingerprintFaceIDUITests;
+			productReference = D014A39D2C03696A003F8E66 /* DemoAuthFingerprintFaceIDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D014A3752C036969003F8E66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D014A37C2C036969003F8E66 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					D014A3922C03696A003F8E66 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D014A37C2C036969003F8E66;
+					};
+					D014A39C2C03696A003F8E66 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D014A37C2C036969003F8E66;
+					};
+				};
+			};
+			buildConfigurationList = D014A3782C036969003F8E66 /* Build configuration list for PBXProject "DemoAuthFingerprintFaceID" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D014A3742C036969003F8E66;
+			productRefGroup = D014A37E2C036969003F8E66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D014A37C2C036969003F8E66 /* DemoAuthFingerprintFaceID */,
+				D014A3922C03696A003F8E66 /* DemoAuthFingerprintFaceIDTests */,
+				D014A39C2C03696A003F8E66 /* DemoAuthFingerprintFaceIDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D014A37B2C036969003F8E66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D014A38A2C03696A003F8E66 /* Assets.xcassets in Resources */,
+				D014A38D2C03696A003F8E66 /* Base in Resources */,
+				D014A3882C036969003F8E66 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D014A3912C03696A003F8E66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D014A39B2C03696A003F8E66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D014A3792C036969003F8E66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D014A3B12C036B5E003F8E66 /* SucessVC.swift in Sources */,
+				D014A3812C036969003F8E66 /* AppDelegate.swift in Sources */,
+				D014A3B32C036B7D003F8E66 /* LoginVC.swift in Sources */,
+				D014A3832C036969003F8E66 /* SceneDelegate.swift in Sources */,
+				D014A3B52C036D7B003F8E66 /* FingerPrintAuth.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D014A38F2C03696A003F8E66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D014A3982C03696A003F8E66 /* DemoAuthFingerprintFaceIDTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D014A3992C03696A003F8E66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D014A3A42C03696A003F8E66 /* DemoAuthFingerprintFaceIDUITestsLaunchTests.swift in Sources */,
+				D014A3A22C03696A003F8E66 /* DemoAuthFingerprintFaceIDUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D014A3952C03696A003F8E66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D014A37C2C036969003F8E66 /* DemoAuthFingerprintFaceID */;
+			targetProxy = D014A3942C03696A003F8E66 /* PBXContainerItemProxy */;
+		};
+		D014A39F2C03696A003F8E66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D014A37C2C036969003F8E66 /* DemoAuthFingerprintFaceID */;
+			targetProxy = D014A39E2C03696A003F8E66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D014A3862C036969003F8E66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D014A3872C036969003F8E66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D014A38B2C03696A003F8E66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D014A38C2C03696A003F8E66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D014A3A52C03696A003F8E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D014A3A62C03696A003F8E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D014A3A82C03696A003F8E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UQXX58D4FP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DemoAuthFingerprintFaceID/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akshay.DemoAuthFingerprintFaceID;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D014A3A92C03696A003F8E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UQXX58D4FP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DemoAuthFingerprintFaceID/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akshay.DemoAuthFingerprintFaceID;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D014A3AB2C03696A003F8E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UQXX58D4FP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akshay.DemoAuthFingerprintFaceIDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoAuthFingerprintFaceID.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DemoAuthFingerprintFaceID";
+			};
+			name = Debug;
+		};
+		D014A3AC2C03696A003F8E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UQXX58D4FP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akshay.DemoAuthFingerprintFaceIDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoAuthFingerprintFaceID.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DemoAuthFingerprintFaceID";
+			};
+			name = Release;
+		};
+		D014A3AE2C03696A003F8E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UQXX58D4FP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akshay.DemoAuthFingerprintFaceIDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DemoAuthFingerprintFaceID;
+			};
+			name = Debug;
+		};
+		D014A3AF2C03696A003F8E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UQXX58D4FP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akshay.DemoAuthFingerprintFaceIDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DemoAuthFingerprintFaceID;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D014A3782C036969003F8E66 /* Build configuration list for PBXProject "DemoAuthFingerprintFaceID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D014A3A52C03696A003F8E66 /* Debug */,
+				D014A3A62C03696A003F8E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D014A3A72C03696A003F8E66 /* Build configuration list for PBXNativeTarget "DemoAuthFingerprintFaceID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D014A3A82C03696A003F8E66 /* Debug */,
+				D014A3A92C03696A003F8E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D014A3AA2C03696A003F8E66 /* Build configuration list for PBXNativeTarget "DemoAuthFingerprintFaceIDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D014A3AB2C03696A003F8E66 /* Debug */,
+				D014A3AC2C03696A003F8E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D014A3AD2C03696A003F8E66 /* Build configuration list for PBXNativeTarget "DemoAuthFingerprintFaceIDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D014A3AE2C03696A003F8E66 /* Debug */,
+				D014A3AF2C03696A003F8E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D014A3752C036969003F8E66 /* Project object */;
+}
